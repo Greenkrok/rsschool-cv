@@ -4,7 +4,7 @@
 ---
 ## Contacts
 1. **Location:** Minsk, Belarus
-2. **Phone:** [+375(29)143-06-26](tel:+375291430626)
+3. **Phone:** [+375(29)143-06-26](tel:+375291430626)
 3. **Email:** [zharkevichilya@gmail.com](mailto:zharkevichilya@gmail.com)
 4. **LinkedIn:** [Ilya Zharkevich](https://www.linkedin.com/in/ilya-zharkevich/)
 5. **GitHub:** [Greenkrok](https://github.com/Greenkrok)
@@ -45,6 +45,7 @@ During the course, I studied: HTML5, semantic layout; CSS3, SCSS, Flex, adaptive
 ## Languages
 * English - A2+
 * Russian - Native
+
 ![Certificate of completed Intermediate Programme In English Language Proficiency](https://media-exp1.licdn.com/dms/image/C4E2DAQF2L93CcYHaMg/profile-treasury-image-shrink_800_800/0/1617803253903?e=1654783200&v=beta&t=s9BBwZas_gVbeazIzzaReeteR3Hs5zgbzR6szP12Is8 "Certificate of completed Intermediate Programme In English Language Proficiency")
 
 ---
