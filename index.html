@@ -1,12 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="./assets/img/favicon.ico">
+	<link rel="stylesheet" href="./style.css">
+	<title>cv</title>
 </head>
 <body>
+	<header class="header">
+		<div class="container">
+			<h1 class="header__title">Zharkevich Ilya</h1>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"> <a href="#contacts">Contacts</a> </li>
+					<li class="nav__item"> <a href="#summary">Summary</a> </li>
+					<li class="nav__item"> <a href="#skills">Skills</a> </li>
+					<li class="nav__item"> <a href="#code">Code</a> </li>
+					<li class="nav__item"> <a href="#projects">Projects</a> </li>
+				</ul>
+			</nav>
+			<div class="header__content">
+                <aside class="summary">
+				    <section id="projects" class="section">
+					    <h2 class="section__title">Projects</h2>
+                        <ul class="section__list">
+                            <li class="section__subitem"><a target="_blank" href="https://greenkrok.github.io/Racing-Game/">Need For JS</a></li>
+                            <li class="section__subitem"><a target="_blank" href="https://greenkrok.github.io/LeadAdvisors/">Lead Advisors</a></li>
+                            <li class="section__subitem"><a target="_blank" href="https://greenkrok.github.io/ExtBel/">ExtBel</a></li>
+                            <li class="section__subitem"><a target="_blank" href="https://greenkrok.github.io/Black-Sea/">Black Sea</a></li>
+                        </ul>
+				    </section>
+			    </aside>
+                <div class="about">
+                    <ul id="contacts" class="contacts">
+                        <li class="contacts__item">Location: Minsk, Belarus</li>
+                        <li class="contacts__item">Phone: <a target="_blank" href="tel:+375291430626">+375(29)143-06-26</a></li>
+                        <li class="contacts__item">Email: <a target="_blank" href="mailto:zharkevichilya@gmail.com">zharkevichilya@gmail.com</a></li>
+                        <li class="contacts__item">LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/ilya-zharkevich/">Ilya Zharkevich</a></li>
+                        <li class="contacts__item">GitHub: <a target="_blank" href="https://github.com/Greenkrok">Greenkrok</a></li>
+                    </ul>
+                    <section class="section">
+                        <h2 class="section__title">Objective</h2>
+                        <p class="section__content">Junior Front-end Developer</p>
+                    </section>
+                </div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+			<aside id="summary" class="summary">
+				<div class="aside__img"> <img src="./assets/img/avatar.jpg" alt="Photo of Zharkevich Ilya"> </div>
+				<section class="section">
+					<h2 class="section__title">Summary</h2>
+					<p class="section__content"> I am a kind, non-conflict and responsive person, trying to help people and delve into the essence of the problem, find non-standard solutions. Also constantly developing, showing a sincere interest in new things for me. I love heavy music, ride a motorcycle and bicycle. </p>
+				</section>
+				<section id="skills" class="section">
+					<h2 class="section__title">Hard skills</h2>
+					<ul class="section__list">
+						<li class="section__subitem">React, Webpack</li>
+						<li class="section__subitem">JavaScript</li>
+						<li class="section__subitem">CSS, SCSS</li>
+						<li class="section__subitem">HTML</li>
+						<li class="section__subitem">Git</li>
+						<li class="section__subitem">Figma, Adobe Photoshop</li>
+					</ul>
+				</section>
+				<section class="section">
+					<h2 class="section__title">Soft skills</h2>
+					<ul class="section__list">
+						<li class="section__subitem">Creativity </li>
+						<li class="section__subitem">Sensible perfectionism </li>
+						<li class="section__subitem">Focus on results </li>
+						<li class="section__subitem">Stress sustainability</li>
+						<li class="section__subitem">Team player </li>
+						<li class="section__subitem">Independence and proactivity </li>
+					</ul>
+				</section>
+				<p class="section__text_bold">English – Pre-Intermediate</p>
+			</aside>
+			<div class="about">
+				<section class="section">
+					<h2 class="section__title">Education  </h2>
+					<p class="section__content"> 2016-2020 – International University «MITSO» Department of International Economic Relations and Management Specialization: Marketing </p>
+				</section>
+				<section class="section">
+					<h2 class="section__title">Work experience  </h2>
+					<ul class="section__content">
+						<li class="section__item">
+							<p class="section__text"> <span class="section__text_bold">11.10.21 - 17.01.22</span> – Frontend Web Developer at the Firebird Tours: </p>
+							<ul class="section__sublist">
+								<li class="section__subitem">Worked in Linux, with Jira and Confluence.</li>
+								<li class="section__subitem">Deployed the project in Docker. Interacted with databases, PMA, Drupal.</li>
+								<li class="section__subitem">Added new functionality and fixed bugs in JS, React.</li>
+								<li class="section__subitem">Changed the styling of the application in SCSS. Used Grunt.</li>
+							</ul>
+							<p class="section__text"> My solutions successfully passed the review, testing and got into the release. </p>
+						</li>
+						<li class="section__item">
+							<p class="section__text"> <span class="section__text_bold">31.07.20 - 12.03.21</span> – Training Front End – developer at the Coding School TeachMeSkills; </p>
+							<p class="section__text"> During the course, I studied: HTML5, semantic layout; CSS3, SCSS, Flex, adaptive, responsive; BEM; Git; JavaScript (ES6), DOM, BOM; Webpack 5; React. </p>
+							<ul class="section__sublist">
+								<li class="section__subitem">Made several landing pages.</li>
+								<li class="section__subitem">Built a project with Webpack, React, worked with npm dependencies, eslint, prettier.</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section id="code" class="section">
+					<h2 class="section__title">Code example</h2>
+                    <pre class="hljs"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getRandom</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">Math</span>.round(<span class="hljs-built_in">Math</span>.random());
+}
+                    
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">foo</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">res, rej</span>) </span>{
+            setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+                <span class="hljs-keyword">let</span> success = getRandom();
+                
+                <span class="hljs-keyword">if</span>(success) {
+                    res(<span class="hljs-string">'Hello'</span>);
+                } <span class="hljs-keyword">else</span> {
+                    rej(<span class="hljs-string">'Error'</span>);
+                }         
+            }, <span class="hljs-number">2000</span>)
+    });
+}
+                    
+foo().then( result =&gt; {
+    <span class="hljs-keyword">return</span> (result + <span class="hljs-string">' Ilya'</span>);
+}).then( str =&gt; {
+    <span class="hljs-built_in">console</span>.log(str)
+}).catch(err =&gt; {
+    <span class="hljs-built_in">console</span>.error(err);
+})
+                    </pre>
+                </section>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<ul class="social">
+				<li>2022</li>
+				<li>
+					<a target="_blank" href="https://github.com/Greenkrok" class="github"> <img src="./assets/img/GitHub-Mark-Light-32px.png" alt="github__logo"> <span class="github__text">Me on GitHub</span> </a>
+				</li>
+				<li>
+					<a target="_blank" href="https://rs.school/js/" class="rsschool"> <img src="./assets/svg/rs_school_js.svg" alt="RS School logo"> </a>
+				</li>
+			</ul>
+		</div>
+	</footer>
 </body>
 </html>
