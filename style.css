@@ -1,0 +1,223 @@
+/* Fonts */
+@font-face {
+	font-family: 'Castelar';
+	src: url('./assets/fonts/Castelar.ttf');
+}
+  
+@font-face {
+	font-family: 'Arial';
+	src: url('./assets/fonts/Arial/Arial-regular.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Arial';
+	src: url('./assets/fonts/Arial/Arial-bold.ttf');
+	font-weight: 600;
+}
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Main Styles */
+body {
+	font-family: 'Arial';
+    font-size: 25px;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+a {
+	color: rgb(0, 144, 192);
+}
+
+a:hover {
+	color: red;
+}
+
+.header {
+	padding: 30px 0;
+	background-color: #202020;
+}
+
+.header__title {
+	font-family: 'Castelar';
+	font-size: 60px;
+	text-align: center;
+	background: linear-gradient(180deg, #993,#E0BB4B,#E1DF5B);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.header__content {
+	display: flex;
+	color: white;
+}
+
+.nav {
+	margin: 30px 0;
+	font-size: 30px;
+}
+
+.nav__list {
+	display: flex;
+	justify-content: center;
+}
+
+.nav__item:not(:last-child) {
+	margin-right: 20px;
+}
+
+#projects {
+	text-align: center;
+}
+
+.contacts {
+	margin: 50px 0;
+}
+
+.contacts__item {
+	margin: 10px 0;
+}
+
+.section {
+	margin: 35px 0; 
+}
+
+.section__title {
+	margin-bottom: 35px;
+	padding: 0 40px;
+	background-color: rgb(250, 226, 50);
+	color: black;
+}
+
+.section__text {
+	margin-bottom: 20px;
+}
+
+.section__text_bold {
+	font-weight: bold;
+}
+
+.section__item:not(:last-child) {
+	margin-bottom: 20px;
+	border-bottom: 1px solid grey;
+}
+
+.section__sublist {
+	margin-left: 40px;
+	list-style: disc;
+}
+
+.section__subitem {
+	margin: 10px 0;
+}
+
+.main {
+	padding: 10px 0;
+}
+
+.main > .container {
+	display: flex;
+}
+
+
+.summary {
+	flex-basis: 50%;
+	max-width: 45%;
+	padding: 30px;
+	border-radius: 10px;
+	background-color: rgb(255, 204, 0);
+	box-shadow: 4px 4px 8px 10px rgba(34, 60, 80, 0.2);
+}
+
+.aside__img > img {
+	width: 100%;
+	box-shadow: 4px 4px 8px 10px rgba(34, 60, 80, 0.2);
+}
+
+.about {
+	max-width: 50%;
+    margin-left: auto;
+}
+
+.footer {
+	padding: 30px 0;
+	font-size: 30px;
+	background-color: #202020;
+}
+
+.social {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+}
+
+.github {
+	display: flex;
+	align-items: center;
+}
+
+.github__text {
+	margin-left: 10px;
+}
+
+.rsschool {
+	display: block;
+	width: 100px;
+	background-color: white;
+}
+
+/* SYNTAX HIGHLIGHTER */
+.hljs {
+	display: block;
+	overflow-x: auto;
+	padding: 0.5em;
+	background: rgb(35, 35, 35);
+	color: rgb(230, 225, 220);
+}
+
+.hljs-keyword {
+	color: rgb(194, 98, 48);
+}
+
+.hljs-title {
+	color: rgb(255, 198, 109);
+}
+
+.hljs-params {
+	color: rgb(208, 208, 255);
+}
+
+.hljs-built_in {
+	color: rgb(109, 156, 190);
+}
+
+.hljs-function {
+	color: rgb(208, 208, 255);
+}
+
+.hljs-string {
+	color: rgb(165, 194, 97);
+}
+
+.hljs-number {
+	color: rgb(165, 194, 97);
+}
